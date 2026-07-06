@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Trivia Incendios</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <!-- IZQUIERDA (MASCOTA) -->
+    <div class="lado-izq">
+        <img src="imagenes/mascota.png" class="mascota">
+    </div>
+
+    <!-- DERECHA (TU JUEGO ORIGINAL) -->c
+    <div class="lado-der">
+        
+        <h1 class="titulo">TRIVIA: ¿QUÉ HACER EN CASO DE INCENDIO?</h1>
+
+        <p class="sub">Lee la pregunta y elige la mejor respuesta</p>
+
+        <div class="tarjeta">
+
+            <div class="pregunta" id="pregunta"></div>
+
+            <div class="opcion a" onclick="responder(0)">
+                <span class="letra">A</span>
+                <p id="op0"></p>
+            </div>
+
+            <div class="opcion b" onclick="responder(1)">
+                <span class="letra">B</span>
+                <p id="op1"></p>
+            </div>
+
+            <div class="opcion c" onclick="responder(2)">
+                <span class="letra">C</span>
+                <p id="op2"></p>
+            </div>
+
+            <div class="info">
+                ⏱ Tiempo: <span id="tiempo">15</span>
+                | ⭐ Puntos: <span id="puntos">0</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js2.js"></script>
+</body>
+</html>

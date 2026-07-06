@@ -1,0 +1,251 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4efe7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor {
+    display: flex;
+    gap: 20px;    
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 15px;
+    width: 900px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* IZQUIERDA */
+.lado-izq {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mascota {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* DERECHA */
+.lado-der {
+    width: 60%;
+}
+
+/* TITULO */
+.titulo {
+    background: #ff8c00;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* TARJETA */
+.tarjeta {
+    margin-top: 15px;
+}
+
+.pregunta {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* OPCIONES */
+.opcion {
+    border-radius: 10px;
+    padding: 12px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+/* COLORES */
+.opcion:nth-child(1) {
+    background: #e8f5e9;
+    border-color: #4caf50;
+}
+.opcion:nth-child(2) {
+    background: #fdecea;
+    border-color: #e74c3c;
+}
+.opcion:nth-child(3) {
+    background: #fff4e5;
+    border-color: #f39c12;
+}
+
+.letra {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* INFO */
+.info {
+    margin-top: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ============================= */
+/* TÍTULO SOBRE LA MASCOTA */
+/* ============================= */
+
+.tituloTrivia{
+    text-align:center;
+    color:#ff8c00;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+/* ============================= */
+
+.lado-izq{
+    width:35%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.lado-der{
+    width:65%;
+}
+
+.cuadrito{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    color:#ff8c00;
+    background:rgba(255,255,255,100);
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.harphy img{
+    display:flex;
+    align-items:center;
+    width: 150px;       /* Imagen más pequeña */
+    height: auto;
+    border-radius: 20px; /* Esquinas redondeadas */
+    margin:0 auto;    
+    margin-top: 20px;    /* Espacio arriba */
+    margin-bottom: 20px; /* Espacio abajo *
+      /* Centrar horizontalmente */
+}
+
+
+.mascota{
+    width: 100%;
+    max-width: 300px;
+    height: 380px;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.tarjeta{
+    margin-top:20px;
+}
+
+.pregunta{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.opcion{
+    transition:.25s;
+}
+
+.opcion:hover{
+    transform:scale(1.02);
+}
+
+
+.menuInicio{
+    background: rgba(255,255,255,.94);
+    width: 700px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 30px;
+
+    box-shadow: 0 0 30px rgba(0,0,0,.25);
+}
+
+.tituloInicio{
+    font-size: 55px;
+    color: #ff8c00;
+    margin-bottom: 20px;
+}
+
+
+.tituloFinal{
+    font-size: 30px;
+    color: #ff8c00;
+    background: rgba(255,255,255,.94);
+    border-radius: 15px;
+    padding: 10px 20px;
+
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+.textoInicio{
+    font-size: 24px;
+    margin-bottom: 30px;
+    
+}
+
+.btnInicio{
+    background:#2ecc71;
+    color:white;
+    border:none;
+    border-radius:15px;
+    padding:20px 60px;
+    font-size:30px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btnInicio:hover{
+    transform:scale(1.08);
+    background:#27ae60;
+}
+
+
+.contenedorMascota{
+    background: linear-gradient(
+        180deg,
+        #f8f8f8,
+        #e8e8e8
+    );
+
+    border-radius: 25px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 85%;
+
+    box-shadow: inset 0 0 10px rgba(0,0,0,.08);
+}
+
+
