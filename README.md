@@ -1,2 +1,0 @@
-# JuegoTriviaGema
-Prueba
